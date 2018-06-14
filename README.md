@@ -1,6 +1,6 @@
 # Mutation_Inducer
 
-##SAMPLES from 1000 Genomes: HG00119, HG00188, HG00258, HG00513, HG01383
+## SAMPLES from 1000 Genomes: HG00119, HG00188, HG00258, HG00513, HG01383
 
 
 1. downloaded sliced BAM/BAI files for each sample for tp53 gene with coordinates 17:7565097-7590868
