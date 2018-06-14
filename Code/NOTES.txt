@@ -1,0 +1,5 @@
+calculate_overall_mutation_rate.py takes in a VCF and ROI file, outputting the mutation rate for the whole ROI stretch.
+
+MutationGenerator.py utilizes pyVCF to generate random mutations when given a VCF file.
+
+MutationGeneratorTrivial.py does the same as MutationGenerator.py but without using the pyVCF class.
