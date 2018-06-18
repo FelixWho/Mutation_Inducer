@@ -44,7 +44,7 @@ def intersectMutationRegardlessOfMutationType(vcfFile):
             num_samples = len(record.samples)
             num_samples_found = True
         featureString = '\t'.join( [str(record.CHROM), str(record.start), str(record.end)] )
-        mut_data[(record.start, record.end)] = record.num_called
+        mut_data[(record.start, record.end)] = num_samples - record.get_hom_refs()
         bed_data.append(featureString)
 
     return ( BedTool('\n'.join(bed_data), from_string=True), mut_data, num_samples )
