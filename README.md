@@ -1,4 +1,4 @@
-# Mutation_Inducer
+# Mutation Inducer and Mutation Rate Calculator
 
 ### Purpose
 
