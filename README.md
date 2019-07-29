@@ -1,6 +1,14 @@
 # Mutation_Inducer
 
-### SAMPLES from 1000 Genomes: HG00119, HG00188, HG00258, HG00513, HG01383
+### Purpose
+
+To
+
+1. Randomly induce mutations in a VCF file in order to
+
+2. Test the efficacy of the Mutation Significance in Cancer 2's (MuSiC2) mutation rate calculator
+
+### SAMPLES from 1000 Genomes Project: HG00119, HG00188, HG00258, HG00513, HG01383
 
 
 1. downloaded sliced BAM/BAI files for each sample for tp53 gene with coordinates 17:7565097-7590868
